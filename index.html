@@ -6,38 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <!-- font awesome  -->
-    <script src="https://kit.fontawesome.com/295df1b24e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/295df1b24e.js"
+      crossorigin="anonymous"
+    ></script>
     <script defer src="script.js"></script>
     <title>Product Catalog</title>
   </head>
   <body>
     <main class="container">
-        <div class="slider">
-          <div class="slider__header">
-            <div class="filter__box">
-              <label for="filter">Filter by type:</label>
-              <select name="filter" id="filter">
-                <option value="" selected>-</option>
-                <option value="All">All</option>
-                <option value="Chairs">Chairs</option>
-                <option value="Bookshelves">Bookshelves</option>
-                <option value="Lighting">Lighting</option>
-                <option value="Rugs">Rugs</option>
-                <option value="Sofas">Sofas</option>
-                <option value="Tables">Tables</option>
-              </select>
-            </div>
-            <div class="header__title">
-              <h1>Product Catalog Demo</h1>
-            </div>
-            <div class="search__box">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <input type="text" placeholder="Search">
-            </div>
+      <div class="slider">
+        <div class="slider__header">
+          <div class="filter__box">
+            <label for="filter">Filter by type:</label>
+            <select name="filter" id="filter">
+              <option value="All" selected>All</option>
+              <option value="Chairs">Chairs</option>
+              <option value="Bookshelves">Bookshelves</option>
+              <option value="Lighting">Lighting</option>
+              <option value="Rugs">Rugs</option>
+              <option value="Sofas">Sofas</option>
+              <option value="Tables">Tables</option>
+            </select>
           </div>
-          <div id="slider" class="slider__slides">
-            <div id="popup" class="popup-box"></div>
-              <!-- <div class="slider__slide active">
+          <div class="header__title">
+            <h1>Product Catalog Demo</h1>
+          </div>
+          <div class="search__box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+        <div id="slider" class="slider__slides">
+          <!-- <div class="slider__slide active">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Shakuzoji_Kuginuki_Jizo-3586.jpg/800px-Shakuzoji_Kuginuki_Jizo-3586.jpg"
                   alt="A rooftop in Japan" />
@@ -57,17 +58,17 @@
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Patung_Buddha_Tidur_Trowulan.jpg/800px-Patung_Buddha_Tidur_Trowulan.jpg"
                   alt="A statue of the Buddha in Thailand" />
               </div> -->
-          </div>
-          <div id="nav-button--prev" class="slider__nav-button"></div>
-          <div id="nav-button--next" class="slider__nav-button"></div>
-          <div id="navigation" class="slider__nav">
-              <!-- <div class="slider__navlink active"></div>
+        </div>
+        <div id="popup" class="popup-box"></div>
+        <div id="nav-button--prev" class="slider__nav-button"></div>
+        <div id="nav-button--next" class="slider__nav-button"></div>
+        <div id="navigation" class="slider__nav">
+          <!-- <div class="slider__navlink active"></div>
               <div class="slider__navlink"></div>
               <div class="slider__navlink"></div>
               <div class="slider__navlink"></div> -->
-          </div>
+        </div>
       </div>
     </main>
   </body>
 </html>
-
